@@ -53,3 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Compiled example and test binaries
+ejemplo1
+ejemplo2
+test_ejemplo1
+test_ejemplo2
