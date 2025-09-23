@@ -33,7 +33,7 @@ int main() {
     struct Node* current = head;
 
     // Crear 999 nodos adicionales (en total serán 1000)
-    for (int i = 1; i < 900000; i++) {
+    for (int i = 1; i < 90000; i++) {
         struct Node* newNode = createNode(10 + i);
         current->next = newNode;
         current = newNode;
