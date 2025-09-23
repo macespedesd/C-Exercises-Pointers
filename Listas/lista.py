@@ -15,7 +15,7 @@ def main():
     current = head
 
     # Crear 999 nodos adicionales (en total serán 1000)
-    for i in range(1, 1000):
+    for i in range(1, 900000):
         new_node = Node(10 + i)
         current.next = new_node
         current = new_node
